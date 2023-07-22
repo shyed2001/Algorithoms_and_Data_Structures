@@ -1,7 +1,6 @@
-# CSE-Algorithom-FlowChart-DataStructure-OPP-OS
 CSE Computer Science and Engineering
-Algorithoms
-Flow charts
+#Algorithoms
+#Flow charts
+#Psudo-Code
 Data Structures
-OOP Object Oriented Programming
-OS Opereting System.
+
