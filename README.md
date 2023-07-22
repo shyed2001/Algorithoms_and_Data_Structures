@@ -1,10 +1,10 @@
 CSE Computer Science and Engineering
 
-#Algorithoms#
+# Algorithoms
 
-#Flow charts#
+# Flow charts
 
-#Psudo-Code#
+# Psudo-Code
 
-#Data_Structures#
+# Data_Structures
 
