@@ -227,4 +227,32 @@ When to use these key-value data structures:
 - In Go, use maps when you need an efficient key-value data structure with a flexible key type.
 - In Rust, use `HashMap` for efficient and safe key-value pair storage.
 
+The runtime complexity and memory (space) usage complexity of key-value data structures in various programming languages are summarized below:
+
+1. C/C++:
+   - `std::map` (Ordered Map): Runtime complexity - O(log n) for insertions, deletions, and searches. Memory usage - Moderate.
+   - `std::unordered_map` (Unordered Map): Runtime complexity - O(1) on average for insertions, deletions, and searches (amortized). Memory usage - Relatively high.
+
+2. C#:
+   - `Dictionary<TKey, TValue>`: Runtime complexity - O(1) on average for insertions, deletions, and searches. Memory usage - Relatively high.
+
+3. JavaScript:
+   - Objects and Maps: Runtime complexity - O(1) on average for insertions, deletions, and searches. Memory usage - Relatively high.
+
+4. PHP:
+   - Arrays (Associative Arrays): Runtime complexity - O(1) on average for insertions, deletions, and searches. Memory usage - Relatively high.
+
+5. Python:
+   - Dictionaries (`dict`): Runtime complexity - O(1) on average for insertions, deletions, and searches. Memory usage - Relatively high.
+
+6. Go:
+   - Maps: Runtime complexity - O(1) on average for insertions, deletions, and searches. Memory usage - Moderate.
+
+7. Rust:
+   - `HashMap`: Runtime complexity - O(1) on average for insertions, deletions, and searches. Memory usage - Moderate.
+
+The runtime complexity indicates the efficiency of key-value operations concerning the size of the data set. A lower runtime complexity generally means faster operations. Memory usage complexity refers to the space required to store the data structure and its associated overhead. A higher memory usage complexity indicates more memory consumption.
+
+Keep in mind that these complexities are general descriptions, and the actual performance can vary depending on factors like the specific implementation, the size of the data set, and the operations performed. Always benchmark and profile your code in your specific use case to get accurate performance measurements.
+
 In summary, key-value data structures are fundamental for many programming tasks, enabling efficient mapping of keys to values. Each language provides its own implementation, allowing developers to choose the most suitable one based on performance, features, and convenience. The algorithms employed in these data structures ensure efficient operations, such as lookup, insertion, and deletion, making them essential tools for software development.
